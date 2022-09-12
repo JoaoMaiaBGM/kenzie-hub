@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  background-color: #121214;
+}
+
+.main {
+  background-color: #121214;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main {
+    display: flex;
+    align-items: center;
+  }
+}
